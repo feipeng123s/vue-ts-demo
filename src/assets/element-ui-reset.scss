@@ -1,0 +1,35 @@
+.el-form-item__label {
+    display: inline-block;
+    width: 120px;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: right;
+    vertical-align: top;
+    font-weight: 400
+}
+.el-input--mini .el-input__inner {
+    height: 30px;
+    max-height: 36px;
+    display: inline-block;
+    min-width: 80px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: 0;
+    border: 1px solid #bbb;
+    color: #333;
+    font-size: 12px;
+    border-radius: 2px;
+    box-shadow: none;
+    transition: border .2s ease-in-out,-webkit-box-shadow .2s ease-in-out;
+    transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+    transition: border .2s ease-in-out,box-shadow .2s ease-in-out,-webkit-box-shadow .2s ease-in-out;
+    appearance: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 5px 20px 5px 10px;
+}
+.el-input__prefix{
+    display: none
+}
